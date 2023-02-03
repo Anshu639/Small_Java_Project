@@ -1,0 +1,9 @@
+package anshu;
+public class Product {
+    public void listData(Sales item){
+        System.out.println("Product name :"+item.getName());
+        System.out.println("Product cost price is :"+item.calcCostPrice());
+        System.out.println("Product sales price is :"+item.calcSalesPrice());
+        System.out.println("Profit is :"+item.CalcProfit());
+    }
+}
